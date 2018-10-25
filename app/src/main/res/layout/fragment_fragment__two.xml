@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zhangyanran20181018.bwie.com.myjddemo.fragment.Fragment_Two">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/zrv"
+        android:layout_width="100dp"
+        android:layout_height="match_parent" />
+
+    <ExpandableListView
+        android:id="@+id/yev"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
